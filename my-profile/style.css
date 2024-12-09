@@ -1,0 +1,101 @@
+body {
+    font-family: 'Avenir', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+    background-color: #e9e9e9;
+}
+
+header {
+    background: #e10600;
+    color: #ffffff;
+    padding: 15px 30px;
+    text-align: center;
+    border-bottom: 4px solid #101820; /* Noir du logo de la Formule 1 */
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #f1c40f;
+}
+
+main {
+    padding: 30px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    border-left: 5px solid #e10600;
+}
+
+#hero h2 {
+    margin: 0;
+    font-size: 3rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.section-image {
+    max-width: 800px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin: 15px auto;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+    background: #101820;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    width: 100%;
+}
+
+/* Style du titre */
+.card-white h2 {
+    margin-bottom: 20px;
+    color: #e10600;
+}
+
+/* Liste inline */
+.list-inline {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+/* Liens des réseaux sociaux */
+.list-inline a {
+    text-decoration: none;
+    color: #e10600;
+    font-size: 1.5rem;
+}
+
+/* Icônes en rouge */
+.list-inline i {
+    margin-right: 8px;
+    color: #e10600;
+}
+
+/* Animation au survol */
+.list-inline a:hover {
+    color: #000000;
+    transition: color 0.3s ease;
+}
